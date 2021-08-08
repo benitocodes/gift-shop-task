@@ -1,0 +1,117 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+.header-highlight{
+    background-color: #52D0A1;
+    padding: 0.2rem;
+  }
+  
+  .logo-text{
+    font-weight: 700;
+    /* font-size: 21px; */
+    color: #52D0A1; /* Caribbean green*/
+  }
+
+section {
+    margin: 0 5% 0 5%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row>.col2 {
+    width: 55%
+}
+
+.row>.col1 {
+    width: 45%;
+    text-align: right;
+}
+
+.col1>img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.row>div {
+    margin: 20px;
+}
+
+.col2>h1 {
+    font-size: 3vw;
+}
+
+.col2>p {
+    margin-right: 10%;
+    text-align: justify;
+    font-size: 1.5vw;
+    line-height: 1.3em;
+}
+
+select {
+    /* font-size: 1vw; */
+    font-size: 16px;
+    width: auto;
+    margin-left: 1em;
+}
+
+span {
+    display: inline-flex;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.5vw;
+}
+
+.button-cart {
+    padding: 0.5rem;
+    color: white;
+    background-color: #52D0A1;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    border: 1px solid #52D0A1;
+}
+
+.button-cart:hover {
+    background-color: white;
+    color: #52D0A1;
+    border: 1px solid #52D0A1;
+}
+
+.wishlist {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #52D0A1;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: 1px solid #52D0A1;
+}
+
+.wishlist:hover {
+    color: white;
+    background-color: #52D0A1;
+}
+
+video {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+video:focus {
+    outline: none;
+}

@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat';
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+section>h1 {
+    font-size: 60px;
+    margin: 20px 0 0 35px;
+}
+
+.row {
+    display: flex;
+    margin: 0 60px 0 60px;
+}
+
+.row>.column {
+    width: 70%
+}
+
+.row>.column2 {
+    width: 30%
+}
+
+.cart-item {
+    margin: 0 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    width: 10%;
+}
+
+input {
+    font-weight: bold;
+    text-align: center;
+    background: #52D0A1;
+    color: white;
+    font-size: 20px;
+    height: 25px;
+    margin: 16px 0;
+    border: 0px;
+    border-radius: 0.5rem;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons>a {
+    text-decoration: none;
+}
+
+.button-checkout {
+    border: 1px solid #52D0A1;
+    background-color: #52D0A1;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
+}
+
+.cancel {
+    color: #52D0A1;
+    border: 1px solid #52D0A1;
+    background-color:#fff;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
+}
+
+.button-checkout:hover {
+    color: #52D0A1;
+    background-color: white;
+}
+
+.remove {
+    background: none;
+    border: none;
+    height: auto;
+    color: red;
+}
+
+.remove:hover {
+    color: #52D0A1;
+}

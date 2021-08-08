@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="../Images/img-DS.png" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/men.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href = "css/navbar.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      section {
+        padding-top: 60px;
+        margin: 0% 20%;
+        height: 100%;
+        font-family: "Montserrat";
+      }
+  
+      input,
+      label {
+        display: block;
+        width: 100%;
+      }
+      label {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      textarea {
+        max-width: 100%;
+        width: 100%;
+        height: 100px;
+      }
+      form {
+        padding: 30px;
+        border-radius: 00.5rem;
+        background-color: white;
+      }
+      input {
+        height: 25px;
+        padding: 0.5rem;
+        margin-bottom: 10px;
+      }
+
+      .button-cart {
+    padding: 0.5rem;
+    color: white;
+    background-color: #52D0A1;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    border: 1px solid #52D0A1;
+}
+
+.button-cart:hover {
+    background-color: white;
+    color: #52D0A1;
+    border: 1px solid #52D0A1;
+}
+
+.wishlist {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #52D0A1;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: 1px solid #52D0A1;
+}
+
+.wishlist:hover {
+    color: white;
+    background-color: #52D0A1;
+}
+    </style>
+  </head>
+  <body>
+    <header id="home">
+      <nav>
+        <ul>
+          <li class="primary-nav">
+            <a class="logo-text" href="index.html">Nikey Sneakers</a>
+          </li>
+
+          <div class="nav-link-right">
+            <li class="secondary-nav"><a href="index.html">Home</a></li>
+            <li class="secondary-nav"><a href="men.html">Men</a></li>
+            <li class="secondary-nav"><a href="women.html">Women</a></li>
+            <li class="secondary-nav">
+              <a class="active" href="contact-us.html">Talk to us</a>
+            </li>
+            <li class="secondary-nav">
+              <a href="checkout.html">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </li>
+          </div>
+          
+        </ul>
+      </nav>
+
+      
+    </header>
+    
+    <section class="items">
+      <h1>Any Enquiry? feel free, talk to us</h1>
+      <form action="">
+        <label for="Name"
+          >Full Name
+          <input type="text" name="" id="" placeholder="Name" required
+        /></label>
+        <label for="Email"
+          >Email <input type="email" name="" id="" placeholder="Email" required
+        /></label>
+        <label for="Message"
+          >Message<textarea
+            name="Message"
+            id=""
+            cols=""
+            placeholder="Your Message"
+            required
+          ></textarea
+        ></label>
+        <p><a style="margin-top: 1rem;" type="submit" class="button-cart" href="#">Submit</a> </p>
+      </form>
+    </section>
+  </body>
+</html>
